@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* =========================
+   Global canvas (less white)
+========================= */
+@layer base {
+  html,
+  body {
+    background: #f4f7fb;
+    color: #0b1d33;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* =========================
+   Optional helpers (safe)
+   Use only if/when needed
+========================= */
+@layer utilities {
+  /* Soft elevated surface (cards/sections) */
+  .surface {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Glassy surface for sticky headers, etc. */
+  .surface-soft {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 1rem;
+    backdrop-filter: blur(12px);
+  }
+
+  /* Modal backdrop */
+  .modal-backdrop {
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+  }
+
+  /* Small entrance animation */
+  .fade-in {
+    animation: fadeIn 0.35s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
