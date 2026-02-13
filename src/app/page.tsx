@@ -65,7 +65,7 @@ export default function Home() {
           <div className="lg:col-span-7">
             <div className="relative overflow-hidden rounded-3xl border border-black/10 bg-white shadow-[0_18px_50px_rgba(0,0,0,0.12)]">
               <Image
-                src="/images/team.png"
+                src="/images/team/team.png"
                 alt="Our team"
                 width={1600}
                 height={900}
@@ -113,11 +113,11 @@ export default function Home() {
         </div>
 
         {/* CTA */}
-        <div className="mt-14 rounded-3xl bg-navy px-6 py-10 text-white shadow-sm md:px-10">
+        <div className="mt-14 rounded-3xl bg-navy px-6 py-10 text-navy shadow-sm md:px-10">
           <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
             <div>
               <h3 className="text-xl font-semibold">Ready to make a difference?</h3>
-              <p className="mt-2 text-sm text-white/75">
+              <p className="mt-2 text-sm text-navy/75">
                 Support programs that restore dignity, care, and opportunity.
               </p>
             </div>
