@@ -82,8 +82,8 @@ export default function Footer() {
                   info@piusokogieministries.org
                 </a>
               </div>
-              <div>Phone: (add number)</div>
-              <div>Address: (street, city, state, zip)</div>
+              <div>Phone: (404-519-5862)</div>
+              <div>Address: (3970 CrestWater Ln, Snellville, GA 30039)</div>
             </div>
 
             <a
