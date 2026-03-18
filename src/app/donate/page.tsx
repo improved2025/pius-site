@@ -127,11 +127,11 @@ export default function DonatePage() {
 
       {/* Why Give */}
       <section className="mx-auto max-w-6xl px-4 pb-16">
-        <div className="rounded-3xl bg-navy px-6 py-10 text-white shadow-sm md:px-10">
+        <div className="rounded-3xl bg-navy px-6 py-10 text-navy shadow-sm md:px-10">
           <h2 className="text-2xl font-semibold md:text-3xl">
             Why your support matters
           </h2>
-          <p className="mt-3 max-w-3xl text-sm text-white/80 md:text-base">
+          <p className="mt-3 max-w-3xl text-sm text-navy/80 md:text-base">
             Your donation helps us respond with compassion and structure. It
             strengthens programs that connect people to help, restore dignity,
             and open pathways to long-term stability.
@@ -158,7 +158,7 @@ export default function DonatePage() {
               >
                 <div className="h-2 w-12 bg-gold/80" />
                 <h3 className="mt-4 text-lg font-semibold">{x.title}</h3>
-                <p className="mt-3 text-sm text-white/80">{x.body}</p>
+                <p className="mt-3 text-sm text-navy/80">{x.body}</p>
               </div>
             ))}
           </div>

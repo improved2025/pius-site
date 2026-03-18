@@ -104,7 +104,7 @@ export default function OurTeamPage() {
         </div>
       </section>
 
-      {/* Team members (placeholder cards) */}
+      {/* Team members */}
       <section className="mx-auto max-w-6xl px-4 pb-20">
         <div className="flex items-end justify-between gap-6">
           <h2 className="text-2xl font-semibold text-navy md:text-3xl">
@@ -116,16 +116,32 @@ export default function OurTeamPage() {
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {[
             {
-              name: "Executive Director",
-              role: "Leadership • Vision • Partnerships",
+              name: "Pastor Anthonia Okogie",
+              role: "Vice President and Missions Director",
             },
             {
-              name: "Program Lead",
-              role: "Operations • Community Support",
+              name: "Dr. Evaristus Okogie",
+              role: "Medical Director",
             },
             {
-              name: "Volunteer Coordinator",
-              role: "Volunteer Care • Outreach",
+              name: "Minister Nathaniel Okogie",
+              role: "Financial Director",
+            },
+            {
+              name: "Mr. Joshua Okogie",
+              role: "Officer",
+            },
+            {
+              name: "Mr. Emmanuel Okogie",
+              role: "Officer",
+            },
+            {
+              name: "Mrs. Rachael Oyemade",
+              role: "Secretary",
+            },
+            {
+              name: "Dr Jeff C Innocent",
+              role: "Media Consultant",
             },
           ].map((m) => (
             <div
